@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.maven.NewSample2">
+        <methods>
+          <include name="tc02"/>
+        </methods>
+      </class> <!-- com.maven.NewSample2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.maven.NewSampleCase">
+        <methods>
+          <include name="tc04"/>
+        </methods>
+      </class> <!-- com.maven.NewSampleCase -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
